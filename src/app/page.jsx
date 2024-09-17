@@ -1,9 +1,16 @@
 // "use client";
 
-import Homepage from "./components/homePage/Homepage";
+import { Header } from "@/components/header/Header";
+import { Intro } from "@/components/intro/intro";
 
 export default function Home() {
-  return <Homepage />;
+  return (
+    <div>
+      <Header />
+      <Intro />
+    </div>
+  );
+
   // const [isClicked, setIsClicked] = useState(false);
   // console.log(isClicked);
   // return (

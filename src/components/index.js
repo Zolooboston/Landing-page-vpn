@@ -1,2 +1,3 @@
-export * from "./header";
-export * from "./intro";
+export * from "./header/Header";
+export * from "./intro/Intro";
+export * from "./card/Card";

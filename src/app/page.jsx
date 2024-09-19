@@ -1,13 +1,13 @@
 // "use client";
 
-import { Header } from "@/components/header/Header";
-import { Intro } from "@/components/intro/intro";
+import { Card, Header, Intro } from "@/components";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Intro />
+      <Card />
     </div>
   );
 
